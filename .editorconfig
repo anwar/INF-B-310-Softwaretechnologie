@@ -1,0 +1,22 @@
+# What is EditorConfig?: https://editorconfig.org
+
+# IntelliJ IDEA supports it out of the box. If you use some other editor then you might
+# need to install a plugin: https://editorconfig.org/#pre-installed
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# IntelliJ options
+ij_smart_tabs = true
+
+[*.java]
+indent_style = tab
+
+[*.md]
+indent_style = space
+indent_size = 4
